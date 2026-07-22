@@ -29,7 +29,7 @@ Security Group e AWS WAF para mitigar ataques na borda.
 
 Amazon ECS · Amazon ECR · Amazon RDS · Docker · Application Load
 Balancer · Target Group · CI/CD · Amazon CloudFront · AWS WAF ·
-Security Groups (AWS) · HTTPS / DNS
+Security Groups (AWS) · HTTPS / DNS · Route 53 · Kiro-Cli
 
 ## 🎯 Competências Demonstradas
 
