@@ -1,0 +1,33 @@
+#cloud-config
+
+package_update: true
+package_upgrade: false
+
+packages:
+  - xfce4
+  - xfce4-goodies
+  - xrdp
+  - xorgxrdp
+  - dbus-x11
+  - curl
+  - wget
+  - unzip
+  - git
+  - jq
+
+write_files:
+  - path: /etc/xrdp/startwm.sh
+    owner: root:root
+    permissions: '0755'
+    content: |
+      #!/bin/sh
+      unset DBUS_SESSION_BUS_ADDRESS
+      unset XDG_RUNTIME_DIR
+      exec startxfce4
+
+runcmd:
+  - usermod -aG ssl-cert xrdp
+  - systemctl enable xrdp
+  - systemctl restart xrdp
+
+final_message: "Configuração inicial concluída em $UPTIME segundos."
