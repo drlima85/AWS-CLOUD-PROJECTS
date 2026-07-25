@@ -2,6 +2,7 @@
 author: Danilo Lima
 tags:
 - AWS
+- EC2
 - ECS
 - ECR
 - RDS
@@ -60,7 +61,7 @@ Scripts de deploy
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Autor
+## Autor
 
 **Danilo Lima**
 
