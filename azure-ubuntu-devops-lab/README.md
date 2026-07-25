@@ -1,6 +1,6 @@
-# Azure Ubuntu DevOps Lab
+# VM Ubuntu DevOps Lab criado no Azure
 
-Laboratório Ubuntu 24.04 no Azure preparado para estudos de Azure, AWS, Docker, Terraform e Kubernetes.
+Laboratório Ubuntu 24.04 LTRS no Azure preparado para estudos de Azure, AWS, Docker, Terraform e Kubernetes.
 
 ## Estrutura
 
