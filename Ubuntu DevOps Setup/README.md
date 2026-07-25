@@ -1,6 +1,7 @@
 # Azure Ubuntu DevOps Lab
 
-Laboratório Ubuntu 24.04 no Azure preparado para estudos de Azure, AWS, Docker, Terraform e Kubernetes.
+Este laboratório Ubuntu 24.04 foi criado no Azure preparado para estudos de Azure, AWS, Docker, Terraform e Kubernetes.
+Toda a estrutura funciona em ubuntu, independente do vendor (AWS, Azure, OCI, GCP, on-promisses e etc). Importante conferir a documentação oficial de cada pacote de instalação.
 
 ## Estrutura
 
@@ -84,6 +85,4 @@ helm version
 pwsh -Command '$PSVersionTable'
 ```
 
-## Licença
-
-MIT.
+**Autor:** Danilo Lima — Senior Tech Lead, Cloud & Infrastructure
