@@ -9,7 +9,7 @@ disponível e protegida na AWS. Projeto concluído em 3 dias.
 
 ## 📂 Dias / Desafios
 
-### [Dia 1 — ECS, ECR e RDS](./aws-ecs-ecr-rds-lab)
+### [Dia 1 — EC2, ECS, ECR e RDS](./aws-ecs-ecr-rds-lab)
 Criação de cluster ECS, provisionamento de banco de dados no RDS,
 containerização da aplicação com Docker/ECR e primeiro deploy com
 suporte a rollback.
