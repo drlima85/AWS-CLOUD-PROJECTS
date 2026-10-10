@@ -1,0 +1,24 @@
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Dependências
+node_modules/
+
+# Logs e arquivos temporários
+*.log
+logs/
+*.tmp
+*.bak
+
+# Cache
+.cache/
+__pycache__/
+
+# Sistema e editor
+.DS_Store
+.vscode/
